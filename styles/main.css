@@ -109,7 +109,6 @@ li {
     border-radius: 24px;
     background: #fbfaff;
     background-image: url(../images/hero_vectors_left.svg);
-
     background-repeat: no-repeat;
 }
 
@@ -211,6 +210,10 @@ li {
     color: var(--main-body, #23155b);
 }
 
+.mar_block .pipline {
+    width: 1200px;
+}
+
 .row {
     height: 2px;
     width: 100%;
@@ -225,11 +228,6 @@ li {
 
 .pipline_partners img {
     width: 180px;
-    transition: 0.3s;
-}
-
-.pipline_partners img:hover {
-    transform: scaleZ();
 }
 
 /* PIPLINE END */
@@ -371,8 +369,11 @@ li {
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
-
     color: var(--main-body, #23155b);
+}
+
+.card h5 span {
+    color: var(--main-primary, #8053ff);
 }
 
 .card p {
@@ -470,14 +471,13 @@ li {
     background-repeat: no-repeat;
 }
 
-.footer .title_h2,
-.footer .regular_18 {
+.footer .title_h2 {
     color: var(--main-white);
-    /* margin-bottom: 12px; */
 }
 
 .footer .regular_18 {
     margin: 12px 0 50px;
+    color: var(--main-gray-light, #d4cdef);
 }
 
 .footer_content {
